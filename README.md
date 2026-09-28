@@ -1,4 +1,4 @@
-# 👾 Componente Visual: Modal Interactivo Reutilizable (JS Vanilla)
+# 👾 Componente Visual: Modal Interactivo Reutilizable
 
 ---
 
