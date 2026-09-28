@@ -39,6 +39,7 @@ html
 </body>
 </html>
 ```
+![Modal](img/index.jpg)
 
 ## Guía de Uso y Ejemplos de Código
 El componente expone el objeto global MiModal con su método .abrir(). se puede personalizar el título, mensaje y texto del botón.
@@ -52,6 +53,7 @@ MiModal.abrir({
   textoBoton: 'Entendido'
 });
 ```
+![Modal de Información](img/information.jpg)
 
 ### 2. Modal de Confirmación o Éxito
 ```
@@ -61,6 +63,7 @@ MiModal.abrir({
   textoBoton: 'Excelente'
 });
 ```
+![Modal de Exito](img/exito.jpg)
 ### 3. Modal de Advertencia o Seguridad
 ```
 MiModal.abrir({
@@ -69,3 +72,4 @@ MiModal.abrir({
   textoBoton: 'Aceptar y Cerrar'
 });
 ```
+![Modal de Advertencia](img/advertencia.jpg)
