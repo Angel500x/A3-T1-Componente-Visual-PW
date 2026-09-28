@@ -1,8 +1,8 @@
-# 🚀 Componente Visual: Modal Interactivo Reutilizable (JS Vanilla)
+# 👾 Componente Visual: Modal Interactivo Reutilizable (JS Vanilla)
 
 ---
 
-## 📌 Portada y Descripción General
+## 🐔 Portada y Descripción General
 
 * **Proyecto:** Componente Visual Modal
 * **Materia:** Programación Web
@@ -15,7 +15,7 @@ En la creación de interfaces web interactivas, interrumpir la navegación para 
 
 ---
 
-## 📦 Instalación e Integración
+## 😺 Instalación e Integración
 
 Para incluir **MiModal** en cualquier proyecto web, integra los archivos `componente.css` y `componente.js` en el archivo HTML:
 
