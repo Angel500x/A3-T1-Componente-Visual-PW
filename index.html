@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Componente Modal</title>
+  
+  <!-- Importamos los estilos de nuestro componente -->
+  <link rel="stylesheet" href="css/componente.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <script src="js/componente.js"></script>
+    <script src="js/modal.js"></script>
+
+  <div class="container">
+    <h1>Componente Visual: Modal</h1>
+    <p>Haz clic en cualquiera de los botones:</p>
+
+    <div class="btn-group">
+      <!-- Botones que activan el modal con distintos parámetros -->
+      <button class="btn btn-primary" onclick="abrirModalInfo()">Información</button>
+      <button class="btn btn-success" onclick="abrirModalExito()">Éxito</button>
+      <button class="btn btn-danger" onclick="abrirModalAlerta()">Alerta</button>
+    </div>
+  </div>
+</body>
+</html>
