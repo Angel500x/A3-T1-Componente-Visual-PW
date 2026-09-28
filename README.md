@@ -39,3 +39,33 @@ html
 </body>
 </html>
 ```
+
+## Guía de Uso y Ejemplos de Código
+El componente expone el objeto global MiModal con su método .abrir(). se puede personalizar el título, mensaje y texto del botón.
+NOTA: Se puede crear otro archivo js con esta guia de uso para despues solo importarlo en el html
+
+### 1. Modal Informativo Básico
+```
+MiModal.abrir({
+  titulo: 'ℹ️ Información General',
+  mensaje: 'Modal con contenido informativo.',
+  textoBoton: 'Entendido'
+});
+```
+
+### 2. Modal de Confirmación o Éxito
+```
+MiModal.abrir({
+  titulo: '✅ ¡Operación Exitosa!',
+  mensaje: 'Guardado correctamente en el sistema.',
+  textoBoton: 'Excelente'
+});
+```
+### 3. Modal de Advertencia o Seguridad
+```
+MiModal.abrir({
+  titulo: '⚠️ Advertencia de Seguridad',
+  mensaje: 'Esta acción requiere confirmación. ¿Deseas continuar con el proceso?',
+  textoBoton: 'Aceptar y Cerrar'
+});
+```
